@@ -1,0 +1,107 @@
+/*Q1 beginning*/
+/* header beginning*/
+body{
+    margin:0;/*allows for color to reach the edge*/
+}
+.Q1{
+    background-color:#1f2937; /*styles for the top 25%*/
+    
+}
+    .header{/*first line on website*/
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul{
+        list-style-type: none;
+        display:flex;
+        margin: 0;
+        padding:4px 32px;
+        gap:8px;
+    }
+
+    a{
+        text-decoration: none;/*remove underline from headerlinks*/
+    }
+    /*change link color from blue to white*/
+    a:link{
+        color: #E5E7EB;
+    }
+
+    /*header logo*/
+    h3{
+        font-size:18px;
+        padding: 4px 32px;
+    }
+    /*header End*/
+
+    .content{
+        color:white;
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        /*justify-content: space-around;*/
+        
+        max-width:300px;
+        padding: 4px 32px;
+        
+        
+    }
+    .img1{
+        display:flex;
+        margin-left:auto;
+    }
+    .Q1P{
+        color:#E5E7EB;
+        display:flex;
+        gap:8px;
+       
+    }
+    .AwesomeLeft{
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+        margin-right:auto;
+    }
+    button{
+        font-weight: 400;
+        font-size:16px;
+        height:28px;
+        width:100px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        padding:8px 16px;
+        background:#3882F6;
+        border-radius:8px;
+        color:white;
+        
+    }
+    /*Q1 end*/
+
+
+
+
+/*beginning of popup CALL TO ACTION*/
+.popup{
+    display:flex;
+   
+    gap: 16px;
+    padding:16px;
+}
+.action{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight:700;
+
+    
+}
+.text{
+    margin-bottom:16px;
+    display:flex;
+    
+}
+/*end of popup CALL TO ACTION*/
